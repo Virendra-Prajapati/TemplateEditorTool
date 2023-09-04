@@ -1,0 +1,36 @@
+1. Introduction
+Welcome to the JSON Template Editor documentation. This tool is designed to help you manage UI hierarchy in json format in Unity. You can create, edit, and visualize JSON data structures easily with this editor.
+
+2. Installation
+To use the JSON Template Editor in your Unity project, follow these steps:
+
+Import the TemplateEditor.package into your project.
+
+This will also Newtonsoft.Json library (JSON.NET) in your project. You can download it from the Newtonsoft.Json GitHub repository or use the Unity Package Manager.
+
+You're now ready to start using the JSON Template Editor.
+
+3. Features
+The JSON Template Editor provides the following features:
+
+Editing: Easily edit JSON data using a visual interface.
+Hierarchy: Visualize the hierarchy of JSON objects and their properties.
+Serialization: Convert your UI hierarchy to JSON format and make a new template.
+Deserialization: Create a UI hierarchy from template in the scene.
+Customization: Extend the Template class to include additional UI attributes or components.
+
+4. Usage Examples
+Open the editor window from Tools/TemplateEditor.
+
+Window provides three tabs to work with:
+
+1) Create Templates: Create new templates from the scene. Assign root of the UI hierarchy to the root Transform and give template name. After click on create button the template will be generated in resource folder itself. If there is already template exists of the same name the tool will override it.
+
+2) Create Hierarchy: Create hierarchy in the scene. Assign a Json template file from resource folder this will show you a brief of file. Select an object in the scene if don't want to create a new canvas. After click on create button tool will create a hierarchy from given template.
+
+3) Edit Template: Assign Json template to edit. After edit the values of file you can save the file on save button.
+
+5. Error Handling
+If you encounter any issues while using the JSON Template Editor, informative error messages are provided for the cause of errors.
+
+
